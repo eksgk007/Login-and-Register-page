@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="btn-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form id="login" class="details">
+                <input type="text" class="input-field" placeholder="enter user id" required>
+                <input type="text" class="input-field" placeholder="enter password" required>
+                <input type="checkbox" class="checkbox"><span>Remember me</span>
+                <button type="submit" class="sub-btn">Log in</button>
+            </form>
+            <form id="register" class="details">
+                <input type="text" class="input-field" placeholder="user id" required>
+                <input type="email" class="input-field" placeholder="enter password" required>
+                <input type="text" class="input-field" placeholder="enter email id" required>
+                <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="sub-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="../Login and Register form/script.js"></script>
+</body>
+</html>
